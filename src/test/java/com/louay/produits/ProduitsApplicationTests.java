@@ -19,7 +19,7 @@ class ProduitsApplicationTests {
 
 	@Test
 	public void testCreateProduit() {
-		Produit prod = new Produit("TV Sony smart", 5500.0, new Date());
+		Produit prod = new Produit("TV LG", 900.0, new Date());
 		produitRepository.save(prod);
 	}
 
